@@ -42,14 +42,34 @@ function generateMarkdown(data) {
 
 [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
 
+  ## Table of Contents
+  - [Description](#Description)
+  - [Installations](#Installations)
+  - [Usage](#Usage)
+  - [Tests](#Tests)
+  - [License](#License)
+  - [Questions](#Questions)
+
   ## Description
   ${data.description}
 
-  ## Table of Contents
-  - Description
-  - Installation
-  - Usage
+  ## Installations
+  ${data.installation}
 
+  ## Usage
+  ${data.usage}
+
+  ## Tests
+  ${data.tests}
+
+  ## License
+  [![License Badge](${renderLicenseBadge(data.license)})](${renderLicenseLink(data.license)})
+  </br>
+  This application uses ${data.license} license. 
+
+  ## Questions 
+  If you have any questions or would like to contact me, you can [email](mailto:${data.email}) me. 
+  or check out my [GitHub](https://github.com/${data.github}).
 
 `;
 }

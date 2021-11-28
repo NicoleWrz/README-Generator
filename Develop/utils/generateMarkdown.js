@@ -68,9 +68,8 @@ function generateMarkdown(data) {
   This application uses ${data.license} license. 
 
   ## Questions 
-  If you have any questions or would like to contact me, you can [email](mailto:${data.email}) me. 
+  If you have any questions or would like to contact me, you can [email](mailto:${data.email}) me
   or check out my [GitHub](https://github.com/${data.github}).
-
 `;
 }
 

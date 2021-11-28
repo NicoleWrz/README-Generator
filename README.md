@@ -17,7 +17,10 @@
   npm init, npm install inquirer 
 
   ## Usage
+  ![](https://github.com/NicoleWrz/README-Generator/blob/47f59c203c54614ecff86b27b7e69f393a76e79d/Develop/images/Screenshot.png)
   
+  https://user-images.githubusercontent.com/92045019/143784189-147d5a9c-264c-485f-9caa-7ceea3659a37.mp4
+
 
   ## Tests
   N/A
